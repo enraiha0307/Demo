@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Poppins", Helvetica, sans-serif;
+  background-color: #e9f0f3;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: #3f3d56;
+  margin: 1em;
+}
+
+header nav ul a li {
+  list-style: none;
+  font-size: 24px;
+}
+
+header nav ul a:hover {
+  text-decoration: underline;
+}
+
+header nav h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #131212;
+}
+
+.container {
+  padding: 1%;
+}
+
+.container-log {
+  position: relative;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+.container-update {
+  position: relative;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+.container1 {
+  margin-top: 0%;
+  padding: 5%;
+}
+
+#reg-svg {
+  position: absolute;
+  left: 0;
+  top: -15%;
+  margin: 5%;
+}
+
+#reg-svg-1 {
+  position: absolute;
+  left: 0;
+  top: 0%;
+  margin: 5%;
+}
+
+#update-svg {
+  position: absolute;
+  left: 0;
+  top: -15%;
+  margin: 5%;
+}
+
+.container-log form {
+  color: #131212;
+  background: white;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  left: 60%;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.container-log form h1 {
+  position: relative;
+  left: 35%;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container-log form .btn {
+  position: relative;
+  width: 60%;
+  left: 20%;
+  padding: 5% 5%;
+  margin-top: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background: #3f3d56;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.container-update form {
+  color: #131212;
+  background: white;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  left: 60%;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.container-update form h1 {
+  position: relative;
+  left: 15%;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container-update form .btn {
+  position: relative;
+  width: 60%;
+  left: 20%;
+  padding: 5% 5%;
+  margin-top: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background: #3f3d56;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.container form {
+  color: #131212;
+  background: white;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  left: 60%;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.container form h1 {
+  position: relative;
+  left: 35%;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container form .btn {
+  position: relative;
+  width: 60%;
+  left: 20%;
+  padding: 5% 5%;
+  margin-top: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background: #3f3d56;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.container1 form {
+  color: #131212;
+  background: white;
+  width: 40%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  position: relative;
+  left: 60%;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+.container1 form h1 {
+  position: relative;
+  left: 35%;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container1 form .btn {
+  position: relative;
+  width: 60%;
+  left: 20%;
+  padding: 5% 5%;
+  margin-top: 15px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  background: #3f3d56;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.grp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+label {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.grp1 {
+  margin-left: 10%;
+}
+
+.grp1 p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.grp1 .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grp1 img {
+  margin: 6px;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* HIDE RADIO */
+[type=radio] {
+  position: absolute;
+  opacity: 1;
+  width: 0;
+  height: 0;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 2px solid #0c0808;
+}
+
+.text {
+  color: #131212;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 10%;
+  margin-top: 20%;
+}
+
+.text h2 {
+  font-size: 48px;
+}
+
+.text h1 {
+  font-size: 64px;
+}
+
+#hide {
+  opacity: 0;
+  z-index: -2;
+  cursor: none;
+}
+
+.center {
+  margin-top: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: center;
+}
+
+.center h2 {
+  font-size: 38px;
+  font-weight: 400;
+  margin-top: 15%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li>Smart Home App</li>
+               <ul> <li class="logout"><a href="/update">Update Password</a></li>
+                <li class="logout"><a href="/">Logout</a></li></ul>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="field">
+        <form action="/dashboard" method="POST">
+    <label for="deviceId">Enter Device Id:</label>
+    <input name ="deviceId" type="text" />
+    <input type="submit" id="btn" value="Go"/>
+</form>
+    </div>
+    <h2>Frequent devices</h2>
+    <div class="wrap">
+       
+       <ul>
+          <a href="/camera"> <li>Camera <span>VFC6909</span></li></a>
+          <a href=""><li>Lights <span> VFL5467</span> </li></a>
+          <a href=""> <li>Fridge <span>VDF6721</span> </li></a>
+         <a href=""><li>Speakers <span> VKS8934</span> </li></a>
+       </ul>
+    </div>
+    
+</body>
+</html>

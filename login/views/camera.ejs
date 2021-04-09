@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <ul>
+                <li>Camera</li>
+               <ul><li class="logout"><a href="/dashboard">Back</a></li></ul>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="content">
+        <h3>Live Feed</h3>
+            <div class="feed">
+            <video id="video" width="800" height="300" autoplay></video>
+            </div>
+            <div class="left">
+                <button>Snapshot</button>
+                <!-- <ul>
+                    <li>Backward</li>   
+                    <li>Play</li>
+                    <li>Pause</li>
+                    <li>Forward</li>
+                </ul>
+                 -->
+            </div>
+    </div>
+   
+    <script src="js/camera.js"></script>
+</body>
+</html>
