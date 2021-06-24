@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/enraiha0307/Demo">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
   
   <h3 align="center">A Secure Authentication Scheme (Frontend for Dissertation)</h3>
